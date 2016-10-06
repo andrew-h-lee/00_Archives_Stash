@@ -1,0 +1,41 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Angular Team App</title>
+  <link href="css/normalize.css" rel="stylesheet" media="screen" />
+  <link href="css/main.css" rel="stylesheet" media="screen" />
+  <script src="scripts/angular.min.js"></script>
+  <script src="scripts/teamAppModule.js"></script>
+</head>
+
+<body data-ng-app="myTeamApp">
+  <section data-ng-controller="teamCtrl">
+    <h1 data-ng-bind="pageTitle"></h1>
+  </section>
+  <div class="teams">
+    <form>
+      <label>No of Teams:</label>
+      <input type="number" data-ng-model="teamNumber" />
+      <button data-ng-click="generateTeams(teamNumber)">Create Teams</button>
+    </form>
+  </div>
+<button data-ng-show="teams.length > 0" data-ng-click="resetTeams()">Reset teams</button>
+  <div data-ng-repeat="team in teams">
+    <h3>Team {{$index + 1}}</h3>
+      <ul>
+        <li data-ng-repeat="person in team">{{person}}</li>
+      </ul>
+  </div>
+  <div>
+    <ul>
+      <li data-ng-repeat="person in people">
+        <h2>{{person}}</h2>
+        <button data-ng-click="remove($index)">delete This!</button>
+      </li>
+    </ul>
+  </div>
+
+</body>
+
+</html>

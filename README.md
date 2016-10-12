@@ -10,3 +10,5 @@ Mainly to revise experience on specific coding language.
 - [Node School: NodeJS Exercises](https://github.com/andrew-h-lee/00_Archives_Stash/tree/master/node_school)
 - [Airline App (NodeJS App)](https://github.com/andrew-h-lee/00_Archives_Stash/tree/master/airline_app)
 - [Team App (Angular1 App)](https://github.com/andrew-h-lee/00_Archives_Stash/tree/master/team-app)
+- [Pawn Store (Python/Django App)](https://github.com/andrew-h-lee/00_Archives_Stash/tree/master/pawn-store)
+- [Web Store (Python/Djnago App)](https://github.com/andrew-h-lee/00_Archives_Stash/tree/master/web-store)

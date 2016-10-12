@@ -1,0 +1,16 @@
+- model: inventory.category
+  pk: 1
+  fields:
+    name: Watches
+- model: inventory.category
+  pk: 2
+  fields:
+    name: Electronics
+- model: inventory.category
+  pk: 3
+  fields:
+    name: Instruments
+- model: inventory.category
+  pk: 4
+  fields:
+    name: Memorabilia

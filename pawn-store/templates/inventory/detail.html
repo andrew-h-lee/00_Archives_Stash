@@ -1,0 +1,9 @@
+{% if item %}
+    <h1>{{ item.name }}</h1>
+    <p><strong>Category</strong>: {{ item.category }}</p>
+    <p><strong>Description</strong>: {{ item.description }}</p>
+    <p><strong>Quantity</strong>: {{ item.quantity }}</p>
+    
+{% else %}
+    <p>No items are available.</p>
+{% endif %}

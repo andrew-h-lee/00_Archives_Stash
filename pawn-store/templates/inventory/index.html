@@ -1,0 +1,10 @@
+<h1>Latest Items</h1>
+{% if latest_item_list %}
+	<ul>
+	{% for item in latest_item_list %}
+		<li><a href="/inventory/{{ item.id }}/">{{ item.name }}</a></li>
+	{% endfor %}
+	</ul>
+{% else %}
+	<p>No Items are available.</p>
+{% endif %}

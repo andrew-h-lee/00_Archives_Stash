@@ -11,4 +11,5 @@ Mainly to revise experience on specific coding language.
 - [Airline App (NodeJS App)](https://github.com/andrew-h-lee/00_Archives_Stash/tree/master/airline_app)
 - [Team App (Angular1 App)](https://github.com/andrew-h-lee/00_Archives_Stash/tree/master/team-app)
 - [Pawn Store (Python/Django App)](https://github.com/andrew-h-lee/00_Archives_Stash/tree/master/pawn-store)
-- [Web Store (Python/Djnago App)](https://github.com/andrew-h-lee/00_Archives_Stash/tree/master/web-store)
+- [Web Store (Python/Django App)](https://github.com/andrew-h-lee/00_Archives_Stash/tree/master/web-store)
+- [JS Scratch-Box (React/Redux/ES6 Stack Tutorial)](https://github.com/andrew-h-lee/00_Archives_Stash/tree/master/JS-scratch-box)
